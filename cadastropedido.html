@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Projeto Pedido </title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/elementosform.css">
+</head>
+
+<body>
+    <div id="geral">
+        <header id="cabecalho">
+            <div id="logo">
+                Meus Pedidos
+            </div>
+            <nav id="menu">
+                <a href="cadastrocliente.html">Cadastro Funcionário</a>
+                <a href="cadastropedido.html">Cadastro Pedido</a>
+                <a href="index.html">Pedidos</a>
+            </nav>
+        </header>
+        <section id="corpo">
+            <div id="divForm">
+                <h2>Cadastro Funcionário</h2>
+
+                <form action="#">
+                    <label for="descricao"> Descrição: </label>
+                    <input type="text" name="descricao" id="descricao" class="input" placeholder="Descrição" required>
+
+                    <label for="localidade">Localidade:</label>
+                    <input type="text" name="localidade" id="localidade" class="input" placeholder="Localidade"
+                        required>
+
+                    <label for="cliente">Cliente</label>
+                    <select name="cliente" id="cliente">
+                        <option value="1">Chiquito Bacana</option>
+                        <option value="2">Maria Flor</option>
+                        <option value="3">Catita Peão</option>
+                    </select>
+
+                    <label for="prioridade">Prioridade</label>
+                    <select name="prioridade" id="prioridade">
+                        <option value="Baixa">Baixa</option>
+                        <option value="Média">Média</option>
+                        <option value="Alta">Alta</option>
+                    </select>
+
+                    <button type="submit"> Cadastrar </button>
+                </form>
+
+            </div>
+        </section>
+        <footer id="rodape">
+            &copy; Sistema de Pedido - Desenvoldido por Lilly
+        </footer>
+    </div>
+
+</body>
+
+</html>
